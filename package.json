@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "testingapp",
   "version": "0.0.0",
@@ -16,3 +17,23 @@
     "vite": "^5.4.21"
   }
 }
+=======
+{
+  "name": "testingapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.17.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
+}
+>>>>>>> fad6abbfb6ceecc69d1c2340ec73cbef4aca93ca
