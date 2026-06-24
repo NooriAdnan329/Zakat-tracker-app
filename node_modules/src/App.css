@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:720px){
+  .page{padding:22px}
+}
+
+:root{--bg:#0d337e;--card:#053e55;--muted:#9fb0d6;--accent:#085f49;--success:#36d6a7}
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter,system-ui,Segoe UI,Arial;background:linear-gradient(180deg,#9fb5ce,#6cb9dd);color:#dde0e7;padding:12px}
+.app{max-width:930px;margin:0 auto}
+.page{width: auto; height: 100vh; background:var(--card);padding:14px;border-radius:12px}
+h1,h2,h3,h4{margin:6px 0}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;margin: 2px 5px; background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.04);color:inherit;text-decoration:none}
+.btn.primary{background:var(--accent);color:white}
+.btn.large{padding:14px 18px;font-weight:700;font-size:1.05rem}
+.home-actions{margin:12px 0}
+
+
+.scoreboard{margin:12px 0;padding:8px}
+.score-header{display:flex;justify-content:space-between;align-items:center}
+.team{font-weight:700}
+.score{font-size:1.5rem}
+.meta{color:var(--muted)}
+.batting-grid{display:grid;grid-template-columns:1fr repeat(4,60px);gap:8px;padding:6px 0}
+.row{align-items:center}
+.bowling-grid{display:grid;grid-template-columns:1fr 60px 60px 60px 60px;gap:8px;padding:6px 0}
+
+.controls{margin:12px 0}
+.controls-row{display:flex; justify-content: center; align-items: center; gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.btn.warning{background:#ffb86b}
+.btn.danger{background:#ff6b6b}
+.log{max-height:180px;overflow:auto;margin-top:8px}
+.log-item{padding:6px;border-bottom:1px dashed rgba(255,255,255,0.03)}
+
+.selects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#zakat {
+    width: auto ;
+    height: auto;
+}
+#arrange{
+    display: flex;
+    flex-direction: row;
+    /* width: 98%; */
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.HusundarValue{
+    display: flex;
+    flex-direction: column;
+}
+.page{
+    text-align: center;
+}
+/* #CurrentSelect{
+    width:  600px;
+} */
+ .msg{display:inline-block;padding:10px 14px;border-radius:15px; margin: 2px 5px; background:rgba(15, 81, 90, 0.04);border:1px solid rgba(0, 247, 255, 0.123);color:inherit;text-decoration:none}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.husbundcollect{
+    position: relative;
+    /* width: 98%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media(max-width: 380px){
+  .husbundcollect{
+    display: flex;
+    flex-direction: column;
+  }
+}
